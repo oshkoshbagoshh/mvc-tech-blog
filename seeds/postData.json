@@ -1,25 +1,25 @@
 [
     {
         "title": "The Rise of Smart Homes",
-        "description": "How smart home technology is changing the way we live.",
+        "body": "How smart home technology is changing the way we live.",
         "date_created": "June 1, 2023",
         "user_id": 1
     },
     {
         "title": "The Ethics of Artificial Intelligence",
-        "description": "A discussion on the ethical implications of AI technology.",
+        "body": "A discussion on the ethical implications of AI technology.",
         "date_created": "February 12, 2023",
         "user_id": 2
     },
     {
         "title": "The Future of Virtual Reality",
-        "description": "What virtual reality technology could mean for the future of entertainment and education.",
+        "body": "What virtual reality technology could mean for the future of entertainment and education.",
         "date_created": "April 5, 2023",
         "user_id": 3
     },
     {
         "title": "The Impact of Social Media on Mental Health",
-        "description": "A look at the potential negative effects of social media on mental health.",
+        "body": "A look at the potential negative effects of social media on mental health.",
         "date_created": "November 10, 2022",
         "user_id": 4
     }
