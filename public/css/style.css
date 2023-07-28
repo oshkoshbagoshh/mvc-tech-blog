@@ -1,29 +1,29 @@
 /* General page styles */
 
 header {
-    font-family: "Jomolhari", serif;
+    font-family: "Arial", serif;
   }
   
   body {
-    background-color: #a28089;
+    background-color: #21474974;
   }
   
   h1 {
     font-family: "Jomolhari", serif;
     background-color: teal;
-    color: #ffb3c6;
+    color: #040802;
     padding: 16px;
     margin-bottom: 5px;
   }
   
   main {
-    font-family: "Jomolhari", serif;
+    font-family: "Arial", serif;
     margin-top: -5px;
-    background-color: #a28089;
+    background-color: teal;
   }
   
   #blogName {
-    color: #ffe5ec;
+    color: #ddf8fe;
   }
   
   .homepage-main {
@@ -58,13 +58,13 @@ header {
   #name-signup,
   #email-signup,
   #password-signup {
-    background-color: #e5eaf5;
+    background-color: teal;
   }
   
   /* Button styles */
   
   .btn {
-    background-color: #ffb3c6;
+    background-color: grey;
   }
   
   /* Card styles */

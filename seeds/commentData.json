@@ -1,0 +1,39 @@
+[
+    {
+      "comment_body": "What does Big Tech have to do with this anyways?",
+      "date_created": "June 30, 2023",
+      "user_id": 2,
+      "blogPost_id": 1
+    },
+    {
+      "comment_body": "I don't use internet, because everyone is watching.",
+      "date_created": "June 30, 2023",
+      "user_id": 2,
+      "blogPost_id": 2
+    },
+    {
+      "comment_body": "Turn on the lights and it wont be so dark.",
+      "date_created": "June 30, 2023",
+      "user_id": 3,
+      "blogPost_id": 2
+    },
+    {
+      "comment_body": "I think Canada is behind it.",
+      "date_created": "June 28, 2023",
+      "user_id": 1,
+      "blogPost_id": 1
+    },
+    {
+      "comment_body": "The future is now!",
+      "date_created": "June 30, 2023",
+      "user_id": 2,
+      "blogPost_id": 3
+    },
+    {
+      "comment_body": "What are you even talking about?",
+      "date_created": "June 29, 2023",
+      "user_id": 3,
+      "blogPost_id": 2
+    }
+  ]
+  
