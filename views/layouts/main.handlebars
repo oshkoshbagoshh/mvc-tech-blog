@@ -21,7 +21,7 @@
     />
     {{! -CSS Style Sheet Link- }}
     <link rel="stylesheet" href="/css/style.css" />
-    <title>Barry's Tech Blog</title>
+    <title>AJ's Tech Blog</title>
   </head>
 
   <body>
@@ -37,12 +37,19 @@
           <a href="/login">Login</a>
         {{/if}}
       </nav>
+
+      <img
+        src="https://static.thenounproject.com/png/1087123-200.png"
+        alt="tech icon"
+        class="tech-icon"
+      />
     </header>
 
-    <h1 class="text-center">Barry's Tech Blog</h1>
+    <h1 class="text-center">AJ's Tech Blog </h1>
 
     <main>
-      {{{body}}}
+      {{{body}}} {{! -Handlebars will render the body of the page here- }}
+    
     </main>
 
     {{#if logged_in}}

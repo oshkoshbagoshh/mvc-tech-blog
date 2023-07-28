@@ -9,7 +9,7 @@ header {
   }
   
   h1 {
-    font-family: "Jomolhari", serif;
+    font-family: "Arial", serif;
     background-color: teal;
     color: #040802;
     padding: 16px;
@@ -22,10 +22,21 @@ header {
     background-color: teal;
   }
   
+  /* links */
+
   #blogName {
     color: #ddf8fe;
   }
   
+  a {
+    color: #ddf8fe;
+    
+  }
+  a:hover {
+    color: #ddf8fe;
+    text-decoration: none;
+  }
+
   .homepage-main {
     margin-top: 34px;
   }
