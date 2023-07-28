@@ -1,26 +1,22 @@
 [
     {
-        "title": "The Rise of Smart Homes",
-        "body": "How smart home technology is changing the way we live.",
-        "date_created": "June 1, 2023",
-        "user_id": 1
+      "title": "Introduction to JavaScript",
+      "body": "JavaScript is a programming language commonly used for web development.",
+      "user_id": 1
     },
     {
-        "title": "The Ethics of Artificial Intelligence",
-        "body": "A discussion on the ethical implications of AI technology.",
-        "date_created": "February 12, 2023",
-        "user_id": 2
+      "title": "Data Structures in Python",
+      "body": "Learn about various data structures like lists, dictionaries, and tuples in Python.",
+      "user_id": 2
     },
     {
-        "title": "The Future of Virtual Reality",
-        "body": "What virtual reality technology could mean for the future of entertainment and education.",
-        "date_created": "April 5, 2023",
-        "user_id": 3
+      "title": "Deep Learning with TensorFlow",
+      "body": "Explore the world of deep learning using TensorFlow framework.",
+      "user_id": 3
     },
     {
-        "title": "The Impact of Social Media on Mental Health",
-        "body": "A look at the potential negative effects of social media on mental health.",
-        "date_created": "November 10, 2022",
-        "user_id": 4
+      "title": "Introduction to Node.js",
+      "body": "Discover the basics of Node.js and its role in server-side JavaScript development.",
+      "user_id": 1
     }
-]
+  ]

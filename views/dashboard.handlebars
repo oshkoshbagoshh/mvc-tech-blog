@@ -1,11 +1,12 @@
+<h1>Dashboard</h1>
 <div class="card m-5">
   <h5 class="card-header"><a href="/post/{{id}}">{{title}}</a></h5>
   <div class="card-body">
-    <h5 class="card-title">Posted by: {{user.username}} on {{format_date createdAt}}</h5>
+    <h5 class="card-title">Posted by: {{user.username}} on {{createdAt}}</h5>
     <p class="card-text">{{body}}</p>
     <ul class="list-group">
     {{#each comments as |comment|}}
-        <li class="list-group-item m-1 border rounded">{{comment.body}} <b>by: {{comment.user.username}} on: {{format_date comment.createdAt}}</b></li>
+        <li class="list-group-item m-1 border rounded">{{comment.body}} <b>by: {{comment.user.username}} on: {{comment.createdAt}}</b></li>
         {{/each}}
         <li class="list-group-item m-1 border rounded"><form id="comment-{{id}} "class="comment-form">
           <label for="comment">Comment:</label>
@@ -15,5 +16,3 @@
     </ul>
   </div>
 </div>
-
-
