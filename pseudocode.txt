@@ -1,0 +1,7 @@
+TODO:
+
+- deploy to heroku
+- mysql
+- dotenv
+- sequelize
+
