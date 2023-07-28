@@ -1,0 +1,89 @@
+/* General page styles */
+
+header {
+    font-family: "Jomolhari", serif;
+  }
+  
+  body {
+    background-color: #a28089;
+  }
+  
+  h1 {
+    font-family: "Jomolhari", serif;
+    background-color: teal;
+    color: #ffb3c6;
+    padding: 16px;
+    margin-bottom: 5px;
+  }
+  
+  main {
+    font-family: "Jomolhari", serif;
+    margin-top: -5px;
+    background-color: #a28089;
+  }
+  
+  #blogName {
+    color: #ffe5ec;
+  }
+  
+  .homepage-main {
+    margin-top: 34px;
+  }
+  
+  .blogPost-main {
+    margin-top: 34px;
+  }
+  
+  .user-name {
+    background-color: #84a59d;
+  }
+  
+  /* Nav styles */
+  
+  .navBar {
+    background-color: #00a0a0;
+  }
+  
+  #logout {
+    background-color: #84a59d;
+  }
+  
+  /* Input/textarea styles */
+  
+  #titleInput,
+  #bodyInput,
+  #comment,
+  #email-login,
+  #password-login,
+  #name-signup,
+  #email-signup,
+  #password-signup {
+    background-color: #e5eaf5;
+  }
+  
+  /* Button styles */
+  
+  .btn {
+    background-color: #ffb3c6;
+  }
+  
+  /* Card styles */
+  
+  .card-header {
+    background-color: #e5eaf5;
+  }
+  
+  .card-body {
+    background-color: #ffe5ec;
+  }
+  
+  .card {
+    background-color: #ffe5ec;
+  }
+  
+  .card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
+    transition: all 0.4s ease;
+  }
+  
