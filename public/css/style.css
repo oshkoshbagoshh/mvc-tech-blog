@@ -11,7 +11,7 @@ header {
   h1 {
     font-family: "Arial", serif;
     background-color: teal;
-    color: #040802;
+    color: #094451;
     padding: 16px;
     margin-bottom: 5px;
   }
@@ -19,7 +19,7 @@ header {
   main {
     font-family: "Arial", serif;
     margin-top: -5px;
-    background-color: teal;
+    background-color: black;
   }
   
   /* links */
@@ -46,7 +46,7 @@ header {
   }
   
   .user-name {
-    background-color: #84a59d;
+    background-color: #048061;
   }
   
   /* Nav styles */
@@ -69,7 +69,7 @@ header {
   #name-signup,
   #email-signup,
   #password-signup {
-    background-color: teal;
+    background-color: white;
   }
   
   /* Button styles */
