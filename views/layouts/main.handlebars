@@ -1,66 +1,89 @@
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Matt's Tech Blog</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> The Tech Blog </title>
 
-    {{!-- Bootstrap CSS --}}
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    {{! Bootstrap CSS }}
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
 
+  </head>
 
-
-</head>
-
-<body>
+  <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Matt's Tech Blog!</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav ms-auto">
-                    <a class="nav-link active" aria-current="page" href="/">Home</a>
-                    {{#if logged_in}}
-                    <a class="nav-link" href="/dashboard">Dashboard</a>
-                    <a id="logout" class="nav-link" href="">Logout</a>
-                    {{else}}
-                    <a class="nav-link" href="/login">Login</a>
-                    {{/if}}
-                </div>
-            </div>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Matt's Tech Blog!</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link active" aria-current="page" href="/">Home</a>
+            {{#if logged_in}}
+              <a class="nav-link" href="/dashboard">Dashboard</a>
+              <a id="logout" class="nav-link" href="">Logout</a>
+            {{else}}
+              <a class="nav-link" href="/login">Login</a>
+            {{/if}}
+          </div>
         </div>
+      </div>
     </nav>
-    {{!-- Sub Layout --}}
+    {{! Sub Layout }}
     {{{body}}}
 
     <div class="container">
-  <footer class="py-3 my-4">
-    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
-      {{#if logged_in}} 
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Dashboard</a></li>
-      <li class="nav-item"><a id="logout" class="nav-link px-2 text-body-secondary">Logout</a></li>
-      {{else}}
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Login</a></li>
-      {{/if}}
-    </ul>
-    <p class="text-center text-body-secondary">© 2023 Matt's Tech Blog</p>
-  </footer>
-</div>
+      <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item"><a
+              href="#"
+              class="nav-link px-2 text-body-secondary"
+            >Home</a></li>
+          {{#if logged_in}}
+            <li class="nav-item"><a
+                href="#"
+                class="nav-link px-2 text-body-secondary"
+              >Dashboard</a></li>
+            <li class="nav-item"><a
+                id="logout"
+                class="nav-link px-2 text-body-secondary"
+              >Logout</a></li>
+          {{else}}
+            <li class="nav-item"><a
+                href="#"
+                class="nav-link px-2 text-body-secondary"
+              >Login</a></li>
+          {{/if}}
+        </ul>
+        <p class="text-center text-body-secondary">TheTech Blog</p>
+      </footer>
+    </div>
 
-    {{!-- Bootstrap JS Bundle --}}
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-        crossorigin="anonymous"></script>
+    {{! Bootstrap JS Bundle }}
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
 
-{{#if logged_in}}
-<script src="/js/logout.js"></script>
-{{/if}}
-<script src="/js/addComment.js"></script>
-</body>
+    {{#if logged_in}}
+      <script src="/js/logout.js"></script>
+    {{/if}}
+    <script src="/js/addComment.js"></script>
+  </body>
 
 </html>
