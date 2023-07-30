@@ -19,10 +19,10 @@ const sess = {
   cookie: {
     maxAge: 300000,
     httpOnly: true,
-    secure: false,
+    secure: true,//change to true when deploying
     sameSite: 'strict',
   },
-  resave: false,
+  resave: false,//
   saveUninitialized: true,
   store: new SequelizeStore({
     db: sequelize
@@ -36,8 +36,8 @@ app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars');
 
 app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.urlencoded({ extended: true }));//
+app.use(express.static(path.join(__dirname, 'public')));//
 
 app.use(routes);
 
