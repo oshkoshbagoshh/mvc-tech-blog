@@ -2,9 +2,36 @@
 
 ## Description
 
-This is a tech blog that uses MVC architecture. It allows users to sign up and login to the site, create posts, and comment on other users' posts. The application uses the following technologies: Node.js, Express.js, MySQL, Sequelize, Handlebars, and dotenv.
+This is a tech blog that uses a Model-View-Controller (MVC) architecture that allows users to sign up and login to the site, create posts, and comment on other users' posts. 
 
-```
+The site is deploed on Heroku at https://ajs-mvc-techblog-6080199c6f0f.herokuapp.com
+
+
+
+The application uses the following technologies:
+-  Node.js
+-  Express.js
+-  MySQ
+-  Sequelize
+-  Handlebars
+-  dotenv
+
+## Table of Contents
+
+- [mvc-tech-blog](#mvc-tech-blog)
+  - [Description](#description)
+  - [Table of Contents](#table-of-contents)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+  - [Issues](#issues)
+
+
+```md
+
+
+
+```md 
 GIVEN a CMS-style blog site
 WHEN I visit the site for the first time
 THEN I am presented with the homepage, which includes existing blog posts if any have been posted; navigation links for the homepage and the dashboard; and the option to log in
@@ -39,5 +66,51 @@ THEN I am signed out of the site
 WHEN I am idle on the site for more than a set time
 THEN I am able to view posts and comments but I am prompted to log in again before I can add, update, or delete posts or comments
 ```
+---
 
-```
+## Installation
+- Clone the repository
+- Install dependencies with `npm i`
+- Run `npm start` to start the server
+- Run seed file with `npm run seed` to seed the database
+- Navigate to http://localhost:3001 in your browser
+
+## Usage
+- NOTE: The signup and login features are not currently working on the deployed site (_for new users only_). They work locally, but not on Heroku. I am working on fixing this issue.
+
+- For Heroku, please use one of the following test users to login:
+  - username: testUser1, password: 1234
+  - username: testUser2, password: 4567
+  - username: testUser3, password: 8910 
+
+```json
+    {
+        "username": "testUser1",
+        "password": "1234"
+    },
+    {
+        "username": "testUser2",
+        "password": "4567"
+    },
+    {
+        "username": "testUser3",
+        "password": "8910"
+    }
+````
+
+- Once logged in, the user can create posts and comment on other users' posts. The user can also edit and delete their own posts and comments.
+  
+![Screenshot of the homepage](./assets/screenshot-1.png)
+
+---
+
+## License
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+
+---
+## Issues
+
+- Signup feature is not working on Heroku. It works locally, but not on Heroku. I am working on fixing this issue.
+
